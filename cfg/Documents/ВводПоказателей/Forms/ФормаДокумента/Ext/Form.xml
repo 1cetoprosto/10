@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Ввод показателей</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаНомерДата" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер дата</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер дата</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="32"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<LabelField name="Город" id="7">
+					<DataPath>Объект.Город</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ГородКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ГородРасширеннаяПодсказка" id="9"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПоказатели" id="33">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа показатели</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа показатели</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаПоказателиРасширеннаяПодсказка" id="34"/>
+			<ChildItems>
+				<InputField name="G" id="10">
+					<DataPath>Объект.G</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="GКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="GРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<InputField name="Rt" id="13">
+					<DataPath>Объект.Rt</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="RtКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="RtРасширеннаяПодсказка" id="15"/>
+				</InputField>
+				<InputField name="Tr" id="16">
+					<DataPath>Объект.Tr</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="TrКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="TrРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<InputField name="Cl" id="19">
+					<DataPath>Объект.Cl</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ClКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ClРасширеннаяПодсказка" id="21"/>
+				</InputField>
+				<InputField name="Rez" id="22">
+					<DataPath>Объект.Rez</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="RezКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="RezРасширеннаяПодсказка" id="24"/>
+					<Events>
+						<Event name="OnChange">RezПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="Sr" id="25">
+					<DataPath>Объект.Sr</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="SrКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="SrРасширеннаяПодсказка" id="27"/>
+				</InputField>
+				<LabelField name="Автор" id="28">
+					<DataPath>Объект.Автор</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="АвторКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ВводПоказателей</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

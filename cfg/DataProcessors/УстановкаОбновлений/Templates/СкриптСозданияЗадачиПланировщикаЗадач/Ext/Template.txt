@@ -1,0 +1,32 @@
+﻿'use strict'
+
+StartBoundary = [ДатаЗапуска]; // yyyy-MM-ddTHH:mm:ss
+ProgramName = [ПутьСкрипта]; // Путь к исполняемому файлу, запускаемому планировщиком.
+ProgramArgs = [ПараметрыСкрипта]; // Параметры, передаваемые запускаемому исполняемому файлу.
+TaskName = [ИмяЗадачи];
+TaskDescription = [ОписаниеЗадачи];
+
+try {
+	schedule = new ActiveXObject('Schedule.Service');
+	schedule.Connect();
+	
+	task = schedule.NewTask(0);
+	task.RegistrationInfo.Description = TaskDescription;
+	task.Principal.RunLevel = 1;
+	task.Settings.Enabled = true;
+	task.Settings.Hidden = false;
+	
+	trigger = task.Triggers.Create(1);
+	trigger.StartBoundary = StartBoundary;
+	trigger.Enabled = true;
+	
+	action = task.Actions.Create(0);
+	action.Path = ProgramName;
+	action.Arguments = ProgramArgs;
+	
+	root = schedule.GetFolder('\\');
+	root.RegisterTaskDefinition(TaskName, task, 6, 'SYSTEM', undefined, 4);
+}
+catch (ex) {
+	WScript.Echo(ex.message);
+}

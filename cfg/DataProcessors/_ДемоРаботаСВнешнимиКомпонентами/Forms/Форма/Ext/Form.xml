@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="СценарииПодключения" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сценарии подключения</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="СценарииПодключенияРасширеннаяПодсказка" id="28"/>
+			<ChildItems>
+				<Button name="ПодключитьКомпонентуБезКэширования" id="58">
+					<Type>UsualButton</Type>
+					<Width>32</Width>
+					<CommandName>Form.Command.ПодключитьКомпонентуБезКэширования</CommandName>
+					<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+					<ExtendedTooltip name="ПодключитьКомпонентуБезКэшированияРасширеннаяПодсказка" id="59">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подключает компоненту InputDevice последней версии
+без кеширования экземпляра объекта</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</Button>
+				<Button name="ПодключитьКомпоненту" id="3">
+					<Type>UsualButton</Type>
+					<Width>32</Width>
+					<CommandName>Form.Command.ПодключитьКомпоненту</CommandName>
+					<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+					<ExtendedTooltip name="ПодключитьКомпонентуРасширеннаяПодсказка" id="4">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подключает компоненту InputDevice версии 8.1.7.1</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</Button>
+				<Button name="ПодключитьКомпонентуИзМакета" id="35">
+					<Type>UsualButton</Type>
+					<Width>32</Width>
+					<CommandName>Form.Command.ПодключитьКомпонентуИзМакета</CommandName>
+					<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+					<ExtendedTooltip name="ПодключитьКомпонентуИзМакетаРасширеннаяПодсказка" id="36">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подключает компоненту CryptS из макета конфигурации</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</Button>
+				<Button name="ПодключитьКомпонентуCOM" id="37">
+					<Type>UsualButton</Type>
+					<Width>32</Width>
+					<CommandName>Form.Command.ПодключитьКомпонентуCOM</CommandName>
+					<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+					<ExtendedTooltip name="ПодключитьКомпонентуCOMРасширеннаяПодсказка" id="38">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подключает компоненту Scanner последней версии</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</Button>
+				<Button name="ПодключитьКомпонентуИзРеестраWindows" id="33">
+					<Type>UsualButton</Type>
+					<Width>32</Width>
+					<CommandName>Form.Command.ПодключитьКомпонентуИзРеестраWindows</CommandName>
+					<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+					<ExtendedTooltip name="ПодключитьКомпонентуИзРеестраWindowsРасширеннаяПодсказка" id="34">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подключает компоненту SBRFCOMObject из реестра Windows и создает экземпляр SBRFCOMExtension</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</Button>
+				<Button name="ПодключитьКомпонентуИзМакетаНаСервере" id="42">
+					<Type>UsualButton</Type>
+					<Width>32</Width>
+					<CommandName>Form.Command.ПодключитьКомпонентуИзМакетаНаСервере</CommandName>
+					<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+					<ExtendedTooltip name="ПодключитьКомпонентуИзМакетаНаСервереРасширеннаяПодсказка" id="43">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подключает компоненту CNameDecl из макета конфигурации</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</Button>
+				<Button name="УстановитьКомпоненту" id="60">
+					<Type>UsualButton</Type>
+					<Width>32</Width>
+					<CommandName>Form.Command.УстановитьКомпоненту</CommandName>
+					<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+					<ExtendedTooltip name="УстановитьКомпонентуРасширеннаяПодсказка" id="61">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Устанавливает компоненту InputDevice последней версии</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</Button>
+				<Button name="УстановитьКомпонентуИзМакета" id="74">
+					<Type>UsualButton</Type>
+					<Width>32</Width>
+					<CommandName>Form.Command.УстановитьКомпонентуИзМакета</CommandName>
+					<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+					<ExtendedTooltip name="УстановитьКомпонентуИзМакетаРасширеннаяПодсказка" id="75">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Устанавливает компоненту CryptS из макета конфигурации</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="УстановленныеКомпоненты" id="44">
+			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установленные компоненты</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="УстановленныеКомпонентыРасширеннаяПодсказка" id="45"/>
+			<ChildItems>
+				<InputField name="ПапкаWindows" id="46">
+					<DataPath>ПапкаWindows</DataPath>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>24</MaxWidth>
+					<ContextMenu name="ПапкаWindowsКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ПапкаWindowsРасширеннаяПодсказка" id="48">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>В эту папку устанавливаются внешние компоненты в Windows</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+					<Events>
+						<Event name="Opening">ПапкаWindowsОткрытие</Event>
+					</Events>
+				</InputField>
+				<InputField name="ПапкаWindowsWeb" id="62">
+					<DataPath>ПапкаWindowsWeb</DataPath>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>24</MaxWidth>
+					<ContextMenu name="ПапкаWindowsWebКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="ПапкаWindowsWebРасширеннаяПодсказка" id="64">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>В эту папку устанавливаются внешние компоненты для Internet Explorera.
+Для Firefox и Chrome установленные внешние компоненты можно найти 
+в списке установленных программ Windows 
+(для Windows 7: Панель управления / Программы и компоненты).</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+					<Events>
+						<Event name="Opening">ПапкаWindowsWebОткрытие</Event>
+					</Events>
+				</InputField>
+				<InputField name="ПапкаLinux" id="49">
+					<DataPath>ПапкаLinux</DataPath>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>24</MaxWidth>
+					<ContextMenu name="ПапкаLinuxКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ПапкаLinuxРасширеннаяПодсказка" id="51">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>В эту папку устанавливаются внешние компоненты в Linux</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+					<Events>
+						<Event name="Opening">ПапкаLinuxОткрытие</Event>
+					</Events>
+				</InputField>
+				<InputField name="ПапкаLinuxWeb" id="65">
+					<DataPath>ПапкаLinuxWeb</DataPath>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>24</MaxWidth>
+					<ContextMenu name="ПапкаLinuxWebКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="ПапкаLinuxWebРасширеннаяПодсказка" id="67">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>В эту папку устанавливаются внешние компоненты для Firefox и Chrome в Linux</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+					<Events>
+						<Event name="Opening">ПапкаLinuxWebОткрытие</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="СценарийЗагрузкиИзФайла" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сценарий загрузки из файла</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="СценарийЗагрузкиИзФайлаРасширеннаяПодсказка" id="10"/>
+			<ChildItems>
+				<LabelDecoration name="ДекорацияПримерЗагрузкиИзФайла" id="68">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<TextColor>style:BorderColor</TextColor>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данный пример демонстрирует разработку команды загрузки внешней компоненты из файла, используя программный интерфейс БСП:</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияПримерЗагрузкиИзФайлаКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="ДекорацияПримерЗагрузкиИзФайлаРасширеннаяПодсказка" id="70"/>
+				</LabelDecoration>
+				<UsualGroup name="ИнформацияОВнешнейКомпоненте" id="56">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Информация о внешней компоненте</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ИнформацияОВнешнейКомпонентеРасширеннаяПодсказка" id="57"/>
+					<ChildItems>
+						<LabelDecoration name="ИнформацияОВнешнемМодуле" id="16">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Демо: Не загружен.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ИнформацияОВнешнемМодулеКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ИнформацияОВнешнемМодулеРасширеннаяПодсказка" id="18"/>
+						</LabelDecoration>
+						<LabelDecoration name="ЗагрузитьВнешнийМодульИзФайла" id="19">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Загрузить из файла...</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ЗагрузитьВнешнийМодульИзФайлаКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ЗагрузитьВнешнийМодульИзФайлаРасширеннаяПодсказка" id="21"/>
+							<Events>
+								<Event name="Click">ЗагрузитьВнешнийМодульИзФайлаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="ДекорацияСлужебнаяИнформацияДляПримера" id="71">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<TextColor>style:BorderColor</TextColor>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Служебные поля для примера команды загрузки:</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияСлужебнаяИнформацияДляПримераКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="ДекорацияСлужебнаяИнформацияДляПримераРасширеннаяПодсказка" id="73"/>
+				</LabelDecoration>
+				<UsualGroup name="ТекущаяКомпонента" id="29">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текущая компонента</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalStretch>false</HorizontalStretch>
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<BackColor>style:ФонУправляющегоПоля</BackColor>
+					<ExtendedTooltip name="ТекущаяКомпонентаРасширеннаяПодсказка" id="30"/>
+					<ChildItems>
+						<UsualGroup name="ИдентификаторВерсия" id="14">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Идентификатор версия</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ИдентификаторВерсияРасширеннаяПодсказка" id="15"/>
+							<ChildItems>
+								<InputField name="Идентификатор" id="11">
+									<DataPath>Идентификатор</DataPath>
+									<Width>20</Width>
+									<ContextMenu name="ИдентификаторКонтекстноеМеню" id="12"/>
+									<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="13"/>
+								</InputField>
+								<InputField name="Версия" id="22">
+									<DataPath>Версия</DataPath>
+									<Width>10</Width>
+									<ContextMenu name="ВерсияКонтекстноеМеню" id="23"/>
+									<ExtendedTooltip name="ВерсияРасширеннаяПодсказка" id="24"/>
+								</InputField>
+								<Button name="ПолучитьИнформацию" id="52">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ПолучитьИнформацию</CommandName>
+									<ExtendedTooltip name="ПолучитьИнформациюРасширеннаяПодсказка" id="53"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject._ДемоРаботаСВнешнимиКомпонентами</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Идентификатор" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Версия" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПапкаWindows" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Папка Windows</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПапкаLinux" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Папка Linux</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИнформацияОКомпоненте" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация о компоненте</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ПапкаWindowsWeb" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Папка Windows Web</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПапкаLinuxWeb" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Папка Linux Web</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПодключитьКомпоненту" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключить компоненту</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключить компоненту</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодключитьКомпоненту</Action>
+		</Command>
+		<Command name="ПодключитьКомпонентуИзРеестраWindows" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключить компоненту из реестра windows</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключить компоненту из реестра windows</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодключитьКомпонентуИзРеестраWindows</Action>
+		</Command>
+		<Command name="ПодключитьКомпонентуИзМакета" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключить компоненту из макета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключить компоненту из макета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодключитьКомпонентуИзМакета</Action>
+		</Command>
+		<Command name="ПодключитьКомпонентуCOM" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключить компоненту COM</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключить компоненту COM</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодключитьКомпонентуCOM</Action>
+		</Command>
+		<Command name="ПодключитьКомпонентуИзМакетаНаСервере" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключить компоненту из макета на сервере</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключить компоненту из макета на сервере</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодключитьКомпонентуИзМакетаНаСервере</Action>
+		</Command>
+		<Command name="ПолучитьИнформацию" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить информацию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить информацию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьИнформацию</Action>
+		</Command>
+		<Command name="ПодключитьКомпонентуБезКэширования" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключить компоненту без кэширования</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключить компоненту без кэширования</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодключитьКомпонентуБезКэширования</Action>
+		</Command>
+		<Command name="УстановитьКомпоненту" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить компоненту</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить компоненту</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьКомпоненту</Action>
+		</Command>
+		<Command name="УстановитьКомпонентуИзМакета" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить компоненту из макета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить компоненту из макета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьКомпонентуИзМакета</Action>
+		</Command>
+	</Commands>
+</Form>

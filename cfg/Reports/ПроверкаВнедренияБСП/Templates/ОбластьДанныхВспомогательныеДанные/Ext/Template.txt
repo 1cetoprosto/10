@@ -1,0 +1,18 @@
+﻿<Array xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Array">
+	<Value xsi:type="xs:string">Справочник.СообщенияОбластейДанных</Value>
+	<Value xsi:type="xs:string">РегламентноеЗадание.РассылкаОтчетов</Value>
+	<Value xsi:type="xs:string">РегистрСведений.РейтингАктивностиОбластейДанных</Value>
+	<Value xsi:type="xs:string">Константа.ДатаПоследнегоСтартаКлиентскогоСеанса</Value>
+	<Value xsi:type="xs:string">РегистрСведений.ОбластиДанных</Value>
+	<Value xsi:type="xs:string">Константа.ОтложенноеОбновлениеЗавершеноУспешно</Value>
+	<Value xsi:type="xs:string">РегистрСведений.ОчередьИзвлеченияТекста</Value>
+	<Value xsi:type="xs:string">Константа.ПрефиксОбластиДанных</Value>
+	<Value xsi:type="xs:string">Константа.ЧасовойПоясОбластиДанных</Value>
+	<Value xsi:type="xs:string">Константа.СведенияОБлокируемыхОбъектах</Value>
+	<Value xsi:type="xs:string">Константа.СведенияОбОбновленииИБ</Value>
+	<Value xsi:type="xs:string">РегистрСведений.ВерсииПодсистемОбластейДанных</Value>
+	<Value xsi:type="xs:string">Константа.ПредставлениеОбластиДанных</Value>
+	<Value xsi:type="xs:string">Константа.ВыполнитьРезервноеКопированиеОбластиДанных</Value>
+	<Value xsi:type="xs:string">Справочник.ОчередьЗаданийОбластейДанных</Value>
+	<Value xsi:type="xs:string">РегистрСведений.БлокировкиСеансовОбластейДанных</Value>
+</Array>

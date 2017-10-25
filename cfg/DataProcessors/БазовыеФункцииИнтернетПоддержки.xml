@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<DataProcessor uuid="d07a0d95-e1c7-4741-b968-c35c99e8bbbc">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.БазовыеФункцииИнтернетПоддержки" category="Object">
+				<xr:TypeId>a80d70ac-387f-4373-9fc0-910e1bdc317e</xr:TypeId>
+				<xr:ValueId>bc95fdc6-d846-4ba8-abd0-53c327ee8ff5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.БазовыеФункцииИнтернетПоддержки" category="Manager">
+				<xr:TypeId>7e84c0f8-a353-4b26-996d-eff508112e06</xr:TypeId>
+				<xr:ValueId>87339791-8569-4f32-9be7-76e38563a311</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БазовыеФункцииИнтернетПоддержки</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Базовые функции Интернет-поддержки</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Реализует базовые функции Интернет-поддержки пользователей</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.БазовыеФункцииИнтернетПоддержки.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>ВводДанных</Form>
+			<Form>ДействиеНеПоддерживается</Form>
+			<Form>ДополнительнаяИнформация</Form>
+			<Form>ИнтернетПоддержкаПродуктаНеОказывается</Form>
+			<Form>ОбщаяПинкод</Form>
+			<Form>ОбщаяРегНомер</Form>
+			<Form>ПочтовыйАдрес</Form>
+			<Form>Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

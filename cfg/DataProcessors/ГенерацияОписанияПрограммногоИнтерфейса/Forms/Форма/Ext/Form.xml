@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Генерация описания программного интерфейса</v8:content>
+		</v8:item>
+	</Title>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПодготовить" id="1">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.Подготовить</CommandName>
+				<ExtendedTooltip name="ФормаПодготовитьРасширеннаяПодсказка" id="2"/>
+			</Button>
+			<Button name="ФормаОткрытьСписокПредупреждений" id="6">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОткрытьСписокПредупреждений</CommandName>
+				<ExtendedTooltip name="ФормаОткрытьСписокПредупрежденийРасширеннаяПодсказка" id="7"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="ПутьКФайлу" id="3">
+			<DataPath>Объект.ПутьКФайлу</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Файл с документацией</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь к файлу, в который будет сохранено описание программного интерфейса</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ChoiceButton>true</ChoiceButton>
+			<OpenButton>true</OpenButton>
+			<ContextMenu name="ПутьКФайлуКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="ПутьКФайлуРасширеннаяПодсказка" id="5"/>
+			<Events>
+				<Event name="StartChoice">ПутьКФайлуНачалоВыбора</Event>
+				<Event name="Opening">ПутьКФайлуОткрытие</Event>
+			</Events>
+		</InputField>
+		<InputField name="КаталогВыгрузки" id="11">
+			<DataPath>Объект.КаталогВыгрузки</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог выгрузки файлов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь к каталогу с выгруженными файлами конфигурации. Если не указан, выгрузка будет выполнена автоматически во временный каталог.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="КаталогВыгрузкиКонтекстноеМеню" id="12"/>
+			<ExtendedTooltip name="КаталогВыгрузкиРасширеннаяПодсказка" id="13"/>
+			<Events>
+				<Event name="StartChoice">КаталогВыгрузкиНачалоВыбора</Event>
+			</Events>
+		</InputField>
+		<LabelDecoration name="ДекорацияПояснение" id="8">
+			<Width>50</Width>
+			<TextColor>style:ПоясняющийТекст</TextColor>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Формирует документацию по процедурам и функциям программного интерфейса в общих модулях конфигурации, которые входят в состав анализируемых подсистем. Список подсистем задается в функции ПодсистемыСПрограммнымИнтерфейсом модуля обработки.</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияПояснениеКонтекстноеМеню" id="9"/>
+			<ExtendedTooltip name="ДекорацияПояснениеРасширеннаяПодсказка" id="10"/>
+		</LabelDecoration>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ГенерацияОписанияПрограммногоИнтерфейса</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Подготовить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подготовить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подготовить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Подготовить</Action>
+		</Command>
+		<Command name="ОткрытьСписокПредупреждений" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список предупреждений</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать список предупреждений при формировании описания программного интерфейса</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьСписокПредупреждений</Action>
+		</Command>
+	</Commands>
+</Form>

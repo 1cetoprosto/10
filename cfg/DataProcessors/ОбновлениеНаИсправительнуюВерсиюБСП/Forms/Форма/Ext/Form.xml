@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаОбновитьТекущуюБазу" id="15">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ОбновитьНаИсправительнуюВерсию</CommandName>
+				<ExtendedTooltip name="ФормаОбновитьТекущуюБазуРасширеннаяПодсказка" id="16"/>
+			</Button>
+			<Button name="ФормаСформироватьФайлНастроек" id="8">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.СформироватьФайлНастроек</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сформировать файл настроек</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаСформироватьФайлНастроекРасширеннаяПодсказка" id="9"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<LabelDecoration name="Инструкция" id="10">
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MaxWidth>55</MaxWidth>
+			<AutoMaxHeight>false</AutoMaxHeight>
+			<Title formatted="true">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработку необходимо запустить в информационной базе с конфигурацией, содержащей предыдущий релиз БСП, и нажать на кнопку &lt;b&gt;Обновить на исправительную версию&lt;/&gt;, указав cf-файл новой версии БСП из комплекта поставки. При этом выполняется автоматическое сравнение/объединение с новой конфигурацией библиотеки согласно настройкам, которые соответствуют документации. После сравнения/объединения конфигурация базы данных не будет обновлена автоматически, что позволяет выполнить сравнение с конфигурацией базы данных и внести правки в измененные объекты: переопределяемые модули, различные локальные исправления и доработки. 
+После обновления необходимо дополнительно выполнить инструкции из раздела Переход с тестовых версий или Переход с предыдущих версий файла UpdateSSL, если они есть.
+Кроме того, в качестве альтернативного варианта, по кнопке &lt;b&gt;Сформировать файл настроек &lt;/&gt;предусмотрена возможность сформировать файл настроек сравнения/объединения, который затем можно загрузить в конфигураторе для ручного сравнения/объединения.
+При обновлении на новые функциональные релизы (изменение третьей цифры) расстановку флажков в окне сравнения/объединения необходимо выполнять, как и ранее, в конфигураторе, следуя инструкциям в  главе 2 документации.
+
+</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ИнструкцияКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ИнструкцияРасширеннаяПодсказка" id="12"/>
+		</LabelDecoration>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ОбновлениеНаИсправительнуюВерсиюБСП</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СформироватьФайлНастроек" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать файл настроек</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать файл настроек</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьФайлНастроек</Action>
+		</Command>
+		<Command name="ОбновитьНаИсправительнуюВерсию" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить на исправительную версию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить на исправительную версию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьНаИсправительнуюВерсию</Action>
+		</Command>
+	</Commands>
+</Form>

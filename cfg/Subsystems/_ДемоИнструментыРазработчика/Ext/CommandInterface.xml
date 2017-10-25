@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<CommandsVisibility>
+		<Command name="DataProcessor.ПроверкаБСППередСборкой.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsOrder>
+		<Command name="DataProcessor.КонсольЗапросов.Command.КонсольЗапросов">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="CommonCommand._ДемоПанельОтчетовИнструментыРазработчика">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ЗамерСкоростиОткрытияФорм.Command.ЗамерСкоростиОткрытияФорм">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ПроверкаБСППередСборкой.Command.ПроверкаБСППередСборкой">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ПроверкаБСППередСборкой.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="0:34300c68-1b2e-43db-bbf2-2fa090b9de3e">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<SubsystemsOrder>
+		<Subsystem>Subsystem._ДемоИнструментыРазработчика.Subsystem.БазоваяФункциональность</Subsystem>
+		<Subsystem>Subsystem._ДемоИнструментыРазработчика.Subsystem.ВариантыОтчетов</Subsystem>
+		<Subsystem>Subsystem._ДемоИнструментыРазработчика.Subsystem.ОбменДанными</Subsystem>
+		<Subsystem>Subsystem._ДемоИнструментыРазработчика.Subsystem.ОбновлениеВерсииИБ</Subsystem>
+		<Subsystem>Subsystem._ДемоИнструментыРазработчика.Subsystem.ОбновлениеКонфигурации</Subsystem>
+		<Subsystem>Subsystem._ДемоИнструментыРазработчика.Subsystem.ПоставляемыеДанные</Subsystem>
+		<Subsystem>Subsystem._ДемоИнструментыРазработчика.Subsystem.РезервноеКопированиеИБ</Subsystem>
+		<Subsystem>aeff3a51-ac0a-4394-9c38-f85fb159a86e</Subsystem>
+		<Subsystem>Subsystem._ДемоИнструментыРазработчика.Subsystem.УправлениеДоступом</Subsystem>
+		<Subsystem>Subsystem._ДемоИнструментыРазработчика.Subsystem.УправлениеИтогамиИАгрегатами</Subsystem>
+		<Subsystem>Subsystem._ДемоИнструментыРазработчика.Subsystem.ПереходНаНовыеВерсии</Subsystem>
+	</SubsystemsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+		<Group>ActionsPanelTools</Group>
+	</GroupsOrder>
+</CommandInterface>
