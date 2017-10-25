@@ -6972,8 +6972,8 @@
 			<Metadata name="Document.ВводПоказателей.Attribute.G" id="906e320e-7779-4578-aea4-cdac308e2d20"/>
 			<Metadata name="Document.ВводПоказателей.Attribute.Rez" id="d343ece7-7662-4f40-99f4-a46d396f823f"/>
 		</Metadata>
-		<Metadata name="Document.ВводПоказателей.Form.ФормаДокумента" id="684f700a-0aa2-4f9d-8611-86e8b423eab6" configVersion="a4f86bb290b77b43b3cdac69c6ea42e100000000"/>
-		<Metadata name="Document.ВводПоказателей.Form.ФормаДокумента.Form" id="684f700a-0aa2-4f9d-8611-86e8b423eab6.0" configVersion="dd92be9b55955b4987383611081564ba00000000"/>
+		<Metadata name="Document.ВводПоказателей.Form.ФормаДокумента" id="684f700a-0aa2-4f9d-8611-86e8b423eab6" configVersion="7356ffefc06cd9488e2ecefdc63f3dce00000000"/>
+		<Metadata name="Document.ВводПоказателей.Form.ФормаДокумента.Form" id="684f700a-0aa2-4f9d-8611-86e8b423eab6.0" configVersion="eb03d1f2a963434d8db04e209baf1e2200000000"/>
 		<Metadata name="Document.ВводПоказателей.Form.ФормаСписка" id="0ff0e237-f2dd-4ac2-9c92-4625d126ccad" configVersion="83c0ac1d743b7e4392363d902cba2f5f00000000"/>
 		<Metadata name="Document.ВводПоказателей.Form.ФормаСписка.Form" id="0ff0e237-f2dd-4ac2-9c92-4625d126ccad.0" configVersion="8d58d94d8f7fed448e5dc7f7e9e933c800000000"/>
 		<Metadata name="Document.ВводПоказателей.ObjectModule" id="46f60e64-30d4-4107-8239-6974d288d17f.0" configVersion="b8b3c3e6e888d74ab0547e543e6a267200000000"/>
