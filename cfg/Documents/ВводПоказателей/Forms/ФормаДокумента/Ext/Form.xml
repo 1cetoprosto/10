@@ -43,12 +43,12 @@
 					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 				</InputField>
-				<LabelField name="Город" id="7">
+				<InputField name="Город" id="7">
 					<DataPath>Объект.Город</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ГородКонтекстноеМеню" id="8"/>
 					<ExtendedTooltip name="ГородРасширеннаяПодсказка" id="9"/>
-				</LabelField>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаПоказатели" id="33">
