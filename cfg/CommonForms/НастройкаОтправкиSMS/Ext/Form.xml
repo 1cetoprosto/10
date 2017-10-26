@@ -105,6 +105,10 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>НаборКонстант.РежимИспользованияИнформационнойБазы.Ref</Field>
+				<Field>НаборКонстант.ПровайдерSMS.Ref</Field>
+			</UseAlways>
 		</Attribute>
 		<Attribute name="ЛогинДляОтправкиSMS" id="2">
 			<Title>

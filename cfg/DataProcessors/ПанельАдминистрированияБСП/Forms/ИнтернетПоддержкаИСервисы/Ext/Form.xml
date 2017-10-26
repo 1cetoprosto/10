@@ -1664,6 +1664,10 @@
 				<v8:Type>cfg:ConstantsSet</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>НаборКонстант.РежимИспользованияИнформационнойБазы.Ref</Field>
+				<Field>НаборКонстант.ПровайдерSMS.Ref</Field>
+			</UseAlways>
 		</Attribute>
 		<Attribute name="ЦентрМониторингаАдресСервиса" id="16">
 			<Title>

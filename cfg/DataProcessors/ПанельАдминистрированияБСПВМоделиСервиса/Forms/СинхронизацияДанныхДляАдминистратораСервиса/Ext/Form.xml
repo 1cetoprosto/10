@@ -477,8 +477,6 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>НаборКонстант.РежимИспользованияИнформационнойБазы.Ref</Field>
-				<Field>НаборКонстант.ПровайдерSMS.Ref</Field>
 				<Field>НаборКонстант.ИспользоватьСинхронизациюДанных</Field>
 			</UseAlways>
 		</Attribute>

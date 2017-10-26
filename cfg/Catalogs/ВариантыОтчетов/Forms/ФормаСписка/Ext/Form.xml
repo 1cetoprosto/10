@@ -483,7 +483,6 @@
 											<ExtendedTooltip name="ДоступенВсемПользователямExtendedTooltip" id="126"/>
 										</PictureField>
 										<CheckBoxField name="ВидимостьПоУмолчанию" id="71">
-											<DataPath/>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>

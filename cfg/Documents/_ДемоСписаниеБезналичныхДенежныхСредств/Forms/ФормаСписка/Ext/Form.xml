@@ -123,7 +123,6 @@
 					<ExtendedTooltip name="СуммаДокументаРасширеннаяПодсказка" id="38"/>
 				</LabelField>
 				<LabelField name="БанковскийСчетКонтрагентаВалюта" id="42">
-					<DataPath/>
 					<ContextMenu name="БанковскийСчетКонтрагентаВалютаКонтекстноеМеню" id="43"/>
 					<ExtendedTooltip name="БанковскийСчетКонтрагентаВалютаРасширеннаяПодсказка" id="44"/>
 				</LabelField>

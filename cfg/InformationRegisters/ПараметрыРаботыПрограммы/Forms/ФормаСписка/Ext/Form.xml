@@ -86,7 +86,6 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<LabelField name="ВерсияКонфигурации" id="16">
-					<DataPath/>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="ВерсияКонфигурацииКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="ВерсияКонфигурацииРасширеннаяПодсказка" id="18"/>

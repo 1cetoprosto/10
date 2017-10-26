@@ -433,6 +433,8 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
+				<Field>НаборКонстант.РежимИспользованияИнформационнойБазы.Ref</Field>
+				<Field>НаборКонстант.ПровайдерSMS.Ref</Field>
 				<Field>НаборКонстант.ИспользоватьПолнотекстовыйПоиск</Field>
 				<Field>НаборКонстант.ИзвлекатьТекстыФайловНаСервере</Field>
 			</UseAlways>

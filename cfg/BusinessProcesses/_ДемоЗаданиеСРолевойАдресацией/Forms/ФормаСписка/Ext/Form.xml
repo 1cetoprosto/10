@@ -334,13 +334,11 @@
 							<ExtendedTooltip name="РольПроверяющегоExtendedTooltip" id="91"/>
 						</LabelField>
 						<LabelField name="ОсновнойОбъектАдресацииПроверяющий" id="59">
-							<DataPath/>
 							<TitleLocation>None</TitleLocation>
 							<ContextMenu name="ОсновнойОбъектАдресацииПроверяющийКонтекстноеМеню" id="60"/>
 							<ExtendedTooltip name="ОсновнойОбъектАдресацииПроверяющийExtendedTooltip" id="92"/>
 						</LabelField>
 						<LabelField name="ДополнительныйОбъектАдресацииПроверяющий" id="61">
-							<DataPath/>
 							<TitleLocation>None</TitleLocation>
 							<ContextMenu name="ДополнительныйОбъектАдресацииПроверяющийКонтекстноеМеню" id="62"/>
 							<ExtendedTooltip name="ДополнительныйОбъектАдресацииПроверяющийExtendedTooltip" id="93"/>

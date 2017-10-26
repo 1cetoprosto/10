@@ -231,7 +231,6 @@
 							<ExtendedTooltip name="СписокСчетДтExtendedTooltip" id="99"/>
 						</LabelField>
 						<LabelField name="СписокПодразделениеДт" id="22">
-							<DataPath/>
 							<ContextMenu name="СписокПодразделениеДтКонтекстноеМеню" id="23"/>
 							<ExtendedTooltip name="СписокПодразделениеДтExtendedTooltip" id="100"/>
 						</LabelField>
@@ -334,7 +333,6 @@
 							<ExtendedTooltip name="СписокСчетКтExtendedTooltip" id="110"/>
 						</LabelField>
 						<LabelField name="СписокПодразделениеКт" id="44">
-							<DataPath/>
 							<ContextMenu name="СписокПодразделениеКтКонтекстноеМеню" id="45"/>
 							<ExtendedTooltip name="СписокПодразделениеКтExtendedTooltip" id="111"/>
 						</LabelField>

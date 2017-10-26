@@ -302,7 +302,6 @@
 					</ChildItems>
 				</ColumnGroup>
 				<LabelField name="СписокСсылка" id="100">
-					<DataPath/>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>

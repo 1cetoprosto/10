@@ -115,7 +115,6 @@
 					<ExtendedTooltip name="ЧасовойПоясРасширеннаяПодсказка" id="39"/>
 				</LabelField>
 				<LabelField name="Префикс" id="21">
-					<DataPath/>
 					<ContextMenu name="ПрефиксКонтекстноеМеню" id="22"/>
 					<ExtendedTooltip name="ПрефиксРасширеннаяПодсказка" id="40"/>
 				</LabelField>

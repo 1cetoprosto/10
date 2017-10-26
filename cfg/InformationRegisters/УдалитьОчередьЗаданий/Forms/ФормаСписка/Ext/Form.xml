@@ -67,7 +67,6 @@
 					<ExtendedTooltip name="ОбластьДанныхРасширеннаяПодсказка" id="42"/>
 				</LabelField>
 				<LabelField name="Задание" id="6">
-					<DataPath/>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="ЗаданиеКонтекстноеМеню" id="7"/>
 					<ExtendedTooltip name="ЗаданиеРасширеннаяПодсказка" id="43"/>
@@ -116,7 +115,6 @@
 					<ExtendedTooltip name="НомерПопыткиРасширеннаяПодсказка" id="50"/>
 				</LabelField>
 				<LabelField name="РегламентноеЗадание" id="20">
-					<DataPath/>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="РегламентноеЗаданиеКонтекстноеМеню" id="21"/>
 					<ExtendedTooltip name="РегламентноеЗаданиеРасширеннаяПодсказка" id="51"/>

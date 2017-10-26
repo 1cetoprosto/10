@@ -51,6 +51,13 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Item>
+		<Item>
+			<Form>Document.ВводПоказателей.Form.ФормаСписка</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Item>
 	</LeftColumn>
 	<RightColumn>
 		<Item>

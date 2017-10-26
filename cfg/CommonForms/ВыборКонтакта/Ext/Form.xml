@@ -635,7 +635,6 @@
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
-			<UseAlways/>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>

@@ -514,7 +514,6 @@
 								<HTMLDocumentField name="ИнструкцияПоНастройкеАвтономногоРабочегоМеста" id="171">
 									<DataPath>ИнструкцияПоНастройкеАвтономногоРабочегоМеста</DataPath>
 									<TitleLocation>None</TitleLocation>
-									<CommandSet/>
 									<ContextMenu name="ИнструкцияПоНастройкеАвтономногоРабочегоМестаКонтекстноеМеню" id="172"/>
 									<ExtendedTooltip name="ИнструкцияПоНастройкеАвтономногоРабочегоМестаExtendedTooltip" id="267"/>
 									<Events>

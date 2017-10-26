@@ -74,13 +74,11 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<InputField name="СписокВерсияВладелец" id="18">
-					<DataPath/>
 					<Wrap>false</Wrap>
 					<ContextMenu name="СписокВерсияВладелецКонтекстноеМеню" id="19"/>
 					<ExtendedTooltip name="СписокВерсияВладелецРасширеннаяПодсказка" id="23"/>
 				</InputField>
 				<InputField name="СписокВерсия" id="4">
-					<DataPath/>
 					<DefaultItem>true</DefaultItem>
 					<Title>
 						<v8:item>

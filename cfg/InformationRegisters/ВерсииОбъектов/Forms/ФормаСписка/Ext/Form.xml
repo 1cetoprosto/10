@@ -132,7 +132,6 @@
 					<ExtendedTooltip name="ДатаВерсииExtendedTooltip" id="20"/>
 				</LabelField>
 				<CheckBoxField name="Сжато" id="12">
-					<DataPath/>
 					<DefaultItem>true</DefaultItem>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СжатоКонтекстноеМеню" id="13"/>

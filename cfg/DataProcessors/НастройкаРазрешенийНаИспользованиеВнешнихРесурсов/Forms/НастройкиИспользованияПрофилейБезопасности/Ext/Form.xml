@@ -417,6 +417,8 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
+				<Field>НаборКонстант.РежимИспользованияИнформационнойБазы.Ref</Field>
+				<Field>НаборКонстант.ПровайдерSMS.Ref</Field>
 				<Field>НаборКонстант.ЗаголовокСистемы</Field>
 			</UseAlways>
 		</Attribute>

@@ -202,7 +202,6 @@
 					<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
-					<TitleDataPath/>
 					<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="19"/>
 				</UsualGroup>
 			</ChildItems>
