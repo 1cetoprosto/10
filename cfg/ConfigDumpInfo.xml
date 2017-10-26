@@ -4656,7 +4656,7 @@
 		<Metadata name="CommonTemplate.ПолучениеДереваОбработчиковОбновления.Template" id="88b879b7-1bb3-4478-b569-35bdb5c56939.0" configVersion="10a35cd1080fe7117299a8667f21fde400000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности" id="7a62d031-c340-4b1e-90af-fff697a2e979" configVersion="60a8c8181528ef4981f8b35fa26500c400000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="569959e88ff71645a342fdf5250a72cc00000000"/>
-		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо" id="66193438-abc5-410b-a1f1-a204102d1a62" configVersion="cc50a2854f66e34aac4e236da1c4575f00000000"/>
+		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо" id="66193438-abc5-410b-a1f1-a204102d1a62" configVersion="076feeeb4e792946a32b6a8e7c8e2f5c00000000"/>
 		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.ClientApplicationInterface" id="f389d417-7804-4810-a1c5-a13b3209ad71.b" configVersion="eb1ff008fac7fb47a0d249875e5a35b300000000"/>
 		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.CommandInterface" id="f389d417-7804-4810-a1c5-a13b3209ad71.a" configVersion="740cb50f8ab0b542a37f8f2b4adaf4cd00000000"/>
 		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.ExternalConnectionModule" id="f389d417-7804-4810-a1c5-a13b3209ad71.5" configVersion="0487a35d9acab34880696af7a111039500000000"/>
@@ -4667,7 +4667,7 @@
 		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.MainSectionPicture" id="f389d417-7804-4810-a1c5-a13b3209ad71.c" configVersion="ca955fe68da6944e9792136ffa79ba0a00000000"/>
 		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.ManagedApplicationModule" id="f389d417-7804-4810-a1c5-a13b3209ad71.6" configVersion="a52463533b506749b9439638f28398ef00000000"/>
 		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.OrdinaryApplicationModule" id="f389d417-7804-4810-a1c5-a13b3209ad71.0" configVersion="22606d5031a4a94895efabcc0d2395d800000000"/>
-		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.ParentConfigurations" id="f389d417-7804-4810-a1c5-a13b3209ad71.4" configVersion="f5258523e8fb2a4bb27671239b50b0c800000000"/>
+		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.ParentConfigurations" id="f389d417-7804-4810-a1c5-a13b3209ad71.4" configVersion="ce8e0e18902c4e4da0342b7abba1c4b000000000"/>
 		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.SessionModule" id="f389d417-7804-4810-a1c5-a13b3209ad71.7" configVersion="a60566f51786164795eb9debe2960cb200000000"/>
 		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.Splash" id="f389d417-7804-4810-a1c5-a13b3209ad71.2" configVersion="914570068f11334ca433882086bddadb00000000"/>
 		<Metadata name="Constant._ДемоИмяКонфигурацииВОбменеСБиблиотекойСтандартныхПодсистем" id="63eb6a1b-5f48-461a-9a6f-821db663c9d3" configVersion="5f427a431f50d2419c17a641cb4ab0c400000000"/>
