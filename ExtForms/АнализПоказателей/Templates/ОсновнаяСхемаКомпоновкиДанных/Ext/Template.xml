@@ -101,6 +101,30 @@
 УПОРЯДОЧИТЬ ПО
 	Период</query>
 	</dataSet>
+	<totalField>
+		<dataPath>Cl</dataPath>
+		<expression>Сумма(Cl)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>G</dataPath>
+		<expression>Сумма(G)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Rez</dataPath>
+		<expression>Сумма(Rez)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Rt</dataPath>
+		<expression>Сумма(Rt)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Sr</dataPath>
+		<expression>Сумма(Sr)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Tr</dataPath>
+		<expression>Сумма(Tr)</expression>
+	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
 		<title xsi:type="v8:LocalStringType">
@@ -161,25 +185,28 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ClОборот</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>GОборот</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>RezОборот</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>RtОборот</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>TrОборот</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Город</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Период</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>G</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Rt</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Tr</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Cl</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Rez</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Sr</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:filter>
